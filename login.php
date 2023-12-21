@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 // Redirect based on user role
                 if ($_SESSION['user_role'] == 1) {
-                    // Superadmin
-                    header("Location: superadmin.php");
+                    
+                    header("Location: inserting_pro.php");
                     exit();
                 } elseif ($_SESSION['user_role'] == 2) {
                     // Admin
