@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <div class="container mt-5">
         <h2 class="mb-4">Supprimer Mon Compte</h2>
-        <p>Êtes-vous sûr de vouloir supprimer votre compte ?</p>
+        <p>  Êtes-vous sûr de vouloir supprimer votre compte ?  </p>
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <button type="submit" class="btn btn-danger">Supprimer le Compte</button>
         </form>
